@@ -13,7 +13,7 @@ import retire from '../bank/retire.jpg'
 
 export default function Services() {
     return (
-        <div className='bg-gray-100 p-12' style={{marginBottom:'-75px'}} >
+        <div className='bg-gray-100 p-12' style={{marginBottom:'-100px'}} >
             <h2 className='font-poppins font-bold text-3xl'>You wish</h2>
             <div className='md:w-full mx-auto'>
                 <div className='w-full md:flex flex-wrap justify-between p-4'>
@@ -21,7 +21,7 @@ export default function Services() {
                         image={five} 
                         heading={`Personal Banking`} 
                         description={`Savings and Checking Account Options. FNCU Savings and Checking accounts gives you the flexibility to manage your money your way. Pay no monthly maintenance fees
-                        Get day-to-day banking with no monthly maintenance fees and no minimum balance requirements.`}
+                        Get day-to-day banking with no monthly maintenance.`}
                         linkText={`read more`}
                         linkUrl={`/login`}/>
                     <SingleService 
@@ -33,8 +33,7 @@ export default function Services() {
                     <SingleService 
                         image={four} 
                         heading={`Online/Digital Banking`} 
-                        description={`Bank comfortably, anywhere. Manage your finances with free online and mobile banking. Sign up for digital banking. Manage your accounts with ease wherever you are. You can deposit checks (UK Only), transfer funds, automate bill payments and more, all from your computer or mobile device.
-                        Bank your way, anytime.`}
+                        description={`Bank comfortably, anywhere. Manage your finances with free online and mobile banking. Sign up for digital banking. Manage your accounts with ease wherever you are. You can deposit checks (UK Only), transfer funds, automate bill payments.`}
                         linkText={`read more`}
                         linkUrl={`/login`}/>
 

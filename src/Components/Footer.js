@@ -19,7 +19,7 @@ export default function Footer() {
                     FNCU&#174; Burlington Road, Thornton Heath, Surrey, UK. (+44)744 141 2843 - UK/Europe
                 </a>
             </div>
-            <div class="text-center p-4 bg-gray-200">
+            <div class="text-center p-y-2 bg-gray-200">
                 <span>© 2021 Copyright:</span>
                 <a class="text-gray-600 font-semibold" href="https://mdbootstrap.com/">First Nodea Credit Union. All Rights Reserved</a>
             </div>
