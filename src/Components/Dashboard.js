@@ -4,7 +4,6 @@ import DashTable from './DashTable'
 export default function Dashboard() {
 
     const [account, setAccount] = useState('')
-    const [balance, setBalance] = useState(0)
 
     const acc = [
         {

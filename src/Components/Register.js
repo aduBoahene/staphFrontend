@@ -14,7 +14,6 @@ function Register() {
     const [email, setEmail] = useState("");
 
 
-    const [loading, setLoading] = useState(true)
 
 
 

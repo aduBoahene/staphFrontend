@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 
 
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
 
@@ -27,7 +26,6 @@ import Modal from '@mui/material/Modal';
     const [fromAccount, setFromAccount] = useState('')
     const [accountName, setAccountName] = useState('')
     const [bankName, setBankName] = useState('')
-    const [accountNumber, setAccountNumber] = useState('')
     const [routingNumber, setRoutingNumber] = useState('')
     const [telephone, setTelephone] = useState('')
     const [amount, setAmount] = useState('')
@@ -155,7 +153,7 @@ import Modal from '@mui/material/Modal';
                         </span>
                       </td>
                       <td className="px-6 py-4 space-x-4 whitespace-nowrap text-right text-sm font-medium">
-                        <a href="#" className="text-indigo-600 hover:text-indigo-900">
+                        <a className="text-indigo-600 hover:text-indigo-900">
                           View
                         </a>
                         <a onClick={handleOpen} className="text-indigo-600 hover:text-indigo-900">

@@ -2,9 +2,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import { useDispatch, useSelector } from 'react-redux'
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
-import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
 
 
 
@@ -15,7 +13,6 @@ function classNames(...classes) {
 export default function Example({firstname}) {
 
   const dispatch = useDispatch();
-  const history = useHistory();
 
   const logout=()=>{
     localStorage.setItem('token','');
