@@ -5,6 +5,11 @@ import bankLogo from "../bank/logo.png"
 import HeaderToggle from './HeaderToggle';
 import { Link } from 'react-router-dom'
 
+import bk from "../bank/otherbankLogo.png"
+import k from "../bank/newstaphLogo.png"
+
+
+
 
 export default function Header() {
 
@@ -18,9 +23,9 @@ export default function Header() {
 
     return (
         <div className="flex justify-between items-center sticky top-0 bg-white">
-             <div className='p-4'>
+             <div className=''>
                 <Link to="/">
-                    <span className='font-poppins text-3xl'>fn Credit Union</span>
+                    {/* <img src={k} className='h-48'/> */}logo
                 </Link>
             </div> 
             <svg xmlns="http://www.w3.org/2000/svg" className="visible h-12 w-12 md:invisible" viewBox="0 0 20 20" fill="currentColor">

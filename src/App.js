@@ -7,9 +7,12 @@ import Login from './Components/Login';
 import Home from './Components/Home';
 import Dashboard from './Components/Dashboard';
 import Register from './Components/Register';
-import BecomeAClient from './Components/BecomeAClient';
 import Contact from './Components/Contact';
 import AboutUs from './Components/AboutUs';
+import Footer from './Components/Footer';
+import Privacy from './Components/Privacy';
+import Investment from './Components/Investment';
+
 
 
 
@@ -25,12 +28,15 @@ function App() {
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/register" component={Register} />
         <Route path="/login" component={Login} />
-        <Route path="/becomeaclient" component={BecomeAClient} />
         <Route path="/contactus" component={Contact} />
         <Route path="/aboutus" component={AboutUs} />
+        <Route path="/privacy" component={Privacy} />
 
+        <Route path="/investment" component={Investment} />
 
      </Switch>
+
+     <Footer/>
 
 
       

@@ -7,7 +7,7 @@ import other from '../bank/abtus2.jpeg'
 export default function AboutUs() {
     return (
         <div className='w-4/5 mx-auto'>
-            <span className='font-poppins underline text-4xl text-red-300 font-bold'>About Us</span><br/>
+            <span className='font-poppins text-4xl font-bold'>About Us</span><br/>
 
             <div className='flex justify-between mt-4'>
 

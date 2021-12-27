@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className='w-4/5 mx-auto'>
             <img src={C} /><br/>
-            <span className='font-poppins underline text-4xl text-red-300'>We Are Here To Help</span><br/>
+            <span className='font-poppins text-4xl'>We Are Here To Help</span><br/>
             <div className='flex justify-between mt-4'>
                
                 <div className='w-1/2'>

@@ -7,6 +7,8 @@ import { useDispatch } from "react-redux";
 import axios from "axios";
 import jwt from 'jsonwebtoken'
 
+import lBack from '../bank/loginBack.jpeg'
+
 
 
 export const setCurrentUser=(user)=>{
@@ -39,12 +41,11 @@ export default function Login() {
       });
 
     return (
-        <div style={{backgroundColor:'#E6EEFF'}}>
+        // <div className='bg-[url(`${lBack}`)]'>
             
+      <div className='w-full md:h-auto' style={{backgroundImage: `url(${lBack})`}}> 
 
-<div
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-100"
-    >
+<div className="min-h-screen flex flex-col items-center justify-center bg-gray-100" style={{marginBottom:'-75px'}} >
       <div
         className="
           flex flex-col
