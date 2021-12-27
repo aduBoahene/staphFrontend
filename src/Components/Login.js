@@ -1,7 +1,6 @@
 import React from 'react'
 import { useFormik } from 'formik';
 import 'font-awesome/css/font-awesome.min.css';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import { Link } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import axios from "axios";

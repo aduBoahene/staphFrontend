@@ -1,8 +1,5 @@
 import React from 'react'
 import SingleService from './SingleService'
-import one from '../bank/11.jpg'
-import two from '../bank/1.jpg'
-import three from '../bank/2.jpg'
 import four from '../bank/digital.jpg'
 
 import five from '../bank/personalBanking.jpg'

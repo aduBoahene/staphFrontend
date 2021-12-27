@@ -1,5 +1,4 @@
 import React from 'react'
-import hero from '../bank/hero.jpg'
 import heroo from '../bank/heroo.jpeg'
 
 export default function Hero() {
